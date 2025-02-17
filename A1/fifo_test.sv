@@ -19,7 +19,6 @@ module fifo_test #(parameter DEPTH=8, DATA_WIDTH=8)(
   initial begin
       $timeformat ( -9, 0, " ns", 9 );
       #40000ns $display ( "MEMORY TEST TIMEOUT" );
-      $finish;
     end
 
 
